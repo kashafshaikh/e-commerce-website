@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import React, { useState, useRef, useEffect } from "react";
@@ -62,13 +61,13 @@ export default function Deals() {
                             Deals Of The Month
                         </h1>
                         <p className="text-[18px] sm:text-[22px] lg:text-[25px] text-gray-600 text-justify">
-                            Discover unbeatable offers that bring the best of our products to you at amazing prices! Whether you&#39;re looking for everyday essentials or something special, we&#39;ve got you covered. Hurry up and grab these limited-time deals before they&#39;re gone. Your savings journey starts now.
+                            Discover unbeatable offers that bring the best of our products to you at amazing prices! Whether you&apos;re looking for everyday essentials or something special, we&apos;ve got you covered. Hurry up and grab these limited-time deals before they&apos;re gone. Your savings journey starts now.
                         </p>
                         <button className="bg-gray-800 text-white px-8 py-1 lg:px-12 lg:py-3 rounded-xl mt-4">
                             <p className="text-center text-[16px] md:text-lg">SHOP NOW</p>
                         </button>
                         <h3 className="text-[30px] sm:text-[35px] lg:text-[45px] text-gray-800 font-sans mb-0 mt-6">
-                            Hurry, Before It&#39;s Too Late!
+                            Hurry, Before It&apos;s Too Late!
                         </h3>
                         <p className="text-[20px] sm:text-[24px] lg:text-[28px] text-gray-700 font-sans font-semibold">
                             Two Days are Left
