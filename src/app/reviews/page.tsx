@@ -41,7 +41,7 @@ export default function Reviews() {
                     <div>
                         <p className="py-4 text-[18px] md:text-[22px] text-gray-600 font-semibold text-start font-sans">
                             'Fast shipping and excellent product quality! Everything arrived in perfect condition. 
-                            I&#39;m definitely coming back for more purchases!'
+                            I&apos;m definitely coming back for more purchases!'
                         </p>
                         <div className="flex ml-auto text-yellow-600 my-3">
                             {[...Array(5)].map((_, index) => (
