@@ -20,7 +20,7 @@ export default function Reviews() {
 
                     <div>
                         <p className="py-4 text-[18px] md:text-[22px] text-gray-600 font-semibold text-start font-sans">
-                            "I found exactly what I needed, and the discounts made it even better. The whole shopping experience was seamless from start to finish."
+                            'I found exactly what I needed, and the discounts made it even better. The whole shopping experience was seamless from start to finish.'
                         </p>
                         <div className="flex ml-auto text-yellow-600 my-3">
                             {[...Array(5)].map((_, index) => (
@@ -40,8 +40,8 @@ export default function Reviews() {
 
                     <div>
                         <p className="py-4 text-[18px] md:text-[22px] text-gray-600 font-semibold text-start font-sans">
-                            "Fast shipping and excellent product quality! Everything arrived in perfect condition. 
-                            I&#39;m definitely coming back for more purchases!"
+                            'Fast shipping and excellent product quality! Everything arrived in perfect condition. 
+                            I&#39;m definitely coming back for more purchases!'
                         </p>
                         <div className="flex ml-auto text-yellow-600 my-3">
                             {[...Array(5)].map((_, index) => (
@@ -61,7 +61,7 @@ export default function Reviews() {
 
                     <div>
                         <p className="py-4 text-[18px] md:text-[22px] text-gray-600 font-semibold text-start font-sans">
-                            "Super easy checkout process, and my order arrived earlier than expected. The packaging was neat, and the items were just as described!"
+                            'Super easy checkout process, and my order arrived earlier than expected. The packaging was neat, and the items were just as described!'
                         </p>
                         <div className="flex ml-auto text-yellow-600 my-3">
                             {[...Array(5)].map((_, index) => (
@@ -81,7 +81,7 @@ export default function Reviews() {
 
                     <div>
                         <p className="py-4 text-[18px] md:text-[22px] text-gray-600 font-semibold text-start font-sans">
-                            "Amazing customer service—very responsive and helpful with my queries. The product exceeded my expectations in both design and functionality!"
+                            'Amazing customer service—very responsive and helpful with my queries. The product exceeded my expectations in both design and functionality!'
                         </p>
                         <div className="flex ml-auto text-yellow-600 my-3">
                             {[...Array(5)].map((_, index) => (
@@ -101,7 +101,7 @@ export default function Reviews() {
 
                     <div>
                         <p className="py-4 text-[18px] md:text-[22px] text-gray-600 font-semibold text-start font-sans">
-                            "Great variety of products and super user-friendly website. I love how quickly I received my order, and the quality was top-notch!"
+                            'Great variety of products and super user-friendly website. I love how quickly I received my order, and the quality was top-notch!'
                         </p>
                         <div className="flex ml-auto text-yellow-600 my-3">
                             {[...Array(5)].map((_, index) => (
