@@ -201,6 +201,41 @@ export default function Arrival() {
               </span>
             </p>
           </div>
+
+               {/* Sixth Item */}
+               <div className="shadow-xl flex flex-col p-6 md:p-10">
+            <div className="flex items-center justify-center">
+              <Image
+                src="/skyblue-jean.jpg"
+                alt="skybluejean"
+                width={400}
+                height={400}
+                className="object-cover w-full"
+              />
+            </div>
+            <div className="flex items-center mt-4">
+              <h3 className="text-[22px] md:text-[28px] text-gray-800 font-sans mb-0">
+                SkyBlue Jean
+              </h3>
+              <div className="flex ml-auto text-yellow-600">
+                {[...Array(5)].map((_, index) => (
+                  <RiStarSLine key={index} size={25} />
+                ))}
+              </div>
+            </div>
+            <p className="text-gray-600 text-[16px] md:text-[18px] font-sans font-semibold mt-1">
+              Al Karam
+            </p>
+            <p className="text-[18px] md:text-[20px] text-gray-700 font-sans font-semibold mb-0">
+              (4.1k) Customer Reviews
+            </p>
+            <p className="font-semibold text-[24px] md:text-[28px] text-gray-800 font-sans">
+              $95.50
+              <span className="text-[16px] md:text-[20px] text-red-600 font-sans font-semibold float-right mt-2">
+                Almost Sold Out
+              </span>
+            </p>
+          </div>
         </div>
       </section>
     </main>

@@ -34,6 +34,13 @@ export default function Home() {
                 className="object-cover rounded-xl mx-8 w-full"
               />
             </div>
+            
+            <style jsx>{`
+              .outlined-text {
+                -webkit-text-stroke: 2px gray; 
+                color: white;
+              }
+            `}</style>
 
             <div className="text-center">
               <h2 className="text-gray-700 font-semibold text-[50px] md:text-[100px] leading-none mb-0 mt-2 tracking-wider">
