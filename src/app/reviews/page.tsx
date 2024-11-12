@@ -13,7 +13,7 @@ export default function Reviews() {
                 </p>
 
                 {/* First Review */}
-                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl w-full md:w-[70%] lg:w-[45%] mx-auto px-4 md:px-12 py-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl md:w-[70%] lg:w-[45%] md:mx-auto md:px-12 py-6">
                     <div className="flex justify-center">
                         <Image src="/contactblack.jpg" alt="" width={300} height={300} className="py-6" />
                     </div>
@@ -33,7 +33,7 @@ export default function Reviews() {
                 </div>
 
                 {/* Second Review */}
-                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl w-full md:w-[70%] lg:w-[45%] mx-auto px-4 md:px-12 py-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl md:w-[70%] lg:w-[45%] md:mx-auto md:px-12 py-6">
                     <div className="flex justify-center">
                         <Image src="/koreanrcontact.jpg" alt="" width={300} height={300} className="py-6" />
                     </div>
@@ -54,7 +54,7 @@ export default function Reviews() {
                 </div>
 
                 {/* Third Review */}
-                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl w-full md:w-[70%] lg:w-[45%] mx-auto px-4 md:px-12 py-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl md:w-[70%] lg:w-[45%] md:mx-auto md:px-12 py-6">
                     <div className="flex justify-center">
                         <Image src="/koreanr2contact.jpg" alt="" width={300} height={300} className="py-6" />
                     </div>
@@ -74,7 +74,7 @@ export default function Reviews() {
                 </div>
 
                 {/* Fourth Review */}
-                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl w-full md:w-[70%] lg:w-[45%] mx-auto px-4 md:px-12 py-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl md:w-[70%] md:mx-auto lg:w-[45%] md:px-12 py-6">
                     <div className="flex justify-center">
                         <Image src="/contactgray.jpg" alt="" width={300} height={300} className="py-6" />
                     </div>
@@ -94,7 +94,7 @@ export default function Reviews() {
                 </div>
 
                 {/* Fifth Review */}
-                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl w-full md:w-[70%] lg:w-[45%] mx-auto px-4 md:px-12 py-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 shadow-xl md:w-[70%] md:mx-auto lg:w-[45%] md:px-12 py-6">
                     <div className="flex justify-center">
                         <Image src="/contactyellow.jpg" alt="" width={300} height={300} className="py-6" />
                     </div>

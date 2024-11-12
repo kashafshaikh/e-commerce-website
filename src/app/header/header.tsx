@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="relative z-50 flex items-center justify-between font-semibold text-[24px] w-auto py-4 px-8 text-white bg-gray-900">
+    <header className="relative z-50 flex items-center justify-between font-semibold text-[24px] w-auto py-2 text-white bg-gray-900">
       <button
         title="Menu"
         onClick={onClickHandler}
@@ -26,52 +26,52 @@ export default function Header() {
       </button>
 
       <div>
-        <h2 className="text-3xl font-semibold text-white">FASCO</h2>
+        <h2 className="text-3xl font-semibold text-white px-4">FASCO</h2>
       </div>
 
-      <nav className="hidden md:flex lg:flex flex-grow justify-end gap-x-4">
-        <Link href="/" className="text-white hover:underline hover:text-blue-400">
+      <nav className="hidden md:flex lg:flex flex-grow justify-end gap-x-4 px-8">
+        <Link href="/" className="text-white no-underline hover:underline hover:text-blue-400">
           Home
         </Link>
-        <Link href="/arrivals" className="text-white hover:underline hover:text-blue-400">
+        <Link href="/arrivals" className="text-white no-underline hover:underline hover:text-blue-400">
           Arrivals
         </Link>
-        <Link href="/deals" className="text-white hover:underline hover:text-blue-400">
+        <Link href="/deals" className="text-white no-underline hover:underline hover:text-blue-400">
           Deals
         </Link>
-        <Link href="/reviews" className="text-white hover:underline hover:text-blue-400">
+        <Link href="/reviews" className="text-white no-underline hover:underline hover:text-blue-400">
           Reviews
         </Link>
-        <Link href="/contact" className="text-white hover:underline hover:text-blue-400">
+        <Link href="/contact" className="text-white no-underline hover:underline hover:text-blue-400">
           Contact
         </Link>
       </nav>
 
       {isOpen && (
-        <nav className="md:hidden lg:hidden absolute top-20 left-0 w-full bg-gray-900 text-white p-6 rounded-lg shadow-lg z-40 ">
-          <ul className="flex flex-col items-center space-y-4">
+        <nav className="md:hidden lg:hidden absolute top-20 left-0 bg-gray-900 text-white shadow-lg z-40  w-full overflow-hidden">
+          <ul className="flex flex-col items-center space-y-4 list-none">
             <li>
-              <Link href="/" className="text-white hover:underline hover:text-blue-400">
+              <Link href="/" className="text-white no-underline hover:underline hover:text-blue-400">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/arrivals" className="text-white hover:underline hover:text-blue-400">
+              <Link href="/arrivals" className="text-white no-underline hover:underline hover:text-blue-400">
                 Arrivals
               </Link>
             </li>
             <li>
-              <Link href="/deals" className="text-white hover:underline hover:text-blue-400">
+              <Link href="/deals" className="text-white no-underline hover:underline hover:text-blue-400">
                 Deals
               </Link>
             </li>
             <li>
-              <Link href="/reviews" className="text-white hover:underline hover:text-blue-400">
+              <Link href="/reviews" className="text-white no-underline hover:underline hover:text-blue-400">
                 Reviews
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="text-white hover:underline hover:text-blue-400">
+              <Link href="/contact" className="text-white no-underline hover:underline hover:text-blue-400">
                 Contact
               </Link>
             </li>

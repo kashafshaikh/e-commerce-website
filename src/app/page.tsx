@@ -56,7 +56,7 @@ export default function Home() {
               NEW COLLECTION
             </p>
 
-            <button className="bg-gray-800 text-white px-6 py-2 md:px-10 md:py-1 mt-1 mb-8 rounded-xl">
+            <button className="bg-gray-800 text-white px-6 md:px-10 md:py-1 mt-1 mb-8 rounded-xl">
               <p className="text-center text-base md:text-lg">SHOP NOW</p>
             </button>
 
